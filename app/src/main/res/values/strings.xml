@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Android5New</string>
+
+    <string name="text_android5introduce">Android5.x新API介绍：\n
+    1.elevation 和 translationZ\n
+    2.tint\n
+    3.setClipToOutline\n
+    4.Activity Transitions\n
+    5.setTaskDescription\n
+    6.MediaBrowser 和 MediaSession\n
+    7.Camera2 API\n
+    8.MediaProjection\n
+    </string>
+
+    <string name="text_android5api1">elevation 和 translationZ</string>
+    <string name="text_android5api2">tint</string>
+    <string name="text_android5api3">setClipToOutline</string>
+    <string name="text_android5api4">Activity Transitions</string>
+    <string name="text_android5api5">setTaskDescription</string>
+    <string name="text_android5api6">MediaProjection</string>
+    <string name="text_android5api7"></string>
+
+    <string name="text_0dp">0dp</string>
+    <string name="text_15dp">15dp</string>
+    <string name="text_30dp">30dp</string>
+    <string name="text_45dp">45dp</string>
+    <string name="text_clip1">Clip1</string>
+    <string name="text_clip2">Clip2</string>
+    <string name="text_clip3">Clip3</string>
+    <string name="text_explode">Explode</string>
+    <string name="text_slide">Slide</string>
+    <string name="text_fade">Fade</string>
+    <string name="text_sharedelements">Shared Elements</string>
+    <string name="text_share">共享元素</string>
+    <string name="text_test1_tip">src + tint 演示</string>
+    <string name="text_test2_tip">background + backgroundTint 演示</string>
+    <string name="text_test3_tip">src/background + foregroundTint 演示</string>
+    <string name="text_test4_tip">src/background + drawableTint 演示</string>
+
+</resources>
