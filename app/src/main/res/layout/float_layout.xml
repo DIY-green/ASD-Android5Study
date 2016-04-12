@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/float_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@mipmap/ic_capturesrceen"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>
+
+    <!-- 文件、大小、颜色、背景色
+        android:text="float"
+        android:textSize="20dp"
+        android:textColor="#ff00ff00"
+        android:background="#00ffffff"
+    -->

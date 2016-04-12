@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.android5.newapi2.HeadsUpActivity">
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simple heads-up (no expand)"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simple heads-up"
+        android:id="@+id/btn_test2"
+        android:layout_below="@+id/btn_test1"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用自定义布局"
+        android:layout_below="@+id/btn_test2"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_cleanall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全部清除"
+        android:layout_below="@+id/btn_test3"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick" />
+</RelativeLayout>

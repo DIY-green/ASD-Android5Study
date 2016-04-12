@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 jiashuangkuaizi, Inc.
  */
-package com.diygreen.android5;
+package com.diygreen.android5.newapi1;
 
 import android.graphics.Outline;
 import android.view.View;

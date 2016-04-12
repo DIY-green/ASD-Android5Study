@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="自定义 Notification 布局"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_logo"/>
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button01 Test"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button02 Test"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="测试"
+        android:id="@+id/textView2" />
+</LinearLayout>

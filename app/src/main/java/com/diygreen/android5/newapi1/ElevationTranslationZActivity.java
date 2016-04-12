@@ -1,8 +1,10 @@
-package com.diygreen.android5;
+package com.diygreen.android5.newapi1;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.diygreen.android5.R;
 
 public class ElevationTranslationZActivity extends AppCompatActivity {
 

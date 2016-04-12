@@ -1,10 +1,12 @@
-package com.diygreen.android5;
+package com.diygreen.android5.newapi1;
 
 import android.graphics.Outline;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewOutlineProvider;
+
+import com.diygreen.android5.R;
 
 public class SetClipToOutlineActivity extends AppCompatActivity {
 

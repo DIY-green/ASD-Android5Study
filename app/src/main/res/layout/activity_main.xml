@@ -63,5 +63,37 @@
         android:text="@string/text_android5api6"
         android:textAllCaps="false"
         android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_android5api7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_android5api6"
+        android:text="@string/text_android5api7"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_android5api8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_android5api7"
+        android:text="@string/text_android5api8"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_android5api9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_android5api8"
+        android:text="@string/text_android5api9"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_android5api10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_android5api9"
+        android:text="@string/text_android5api10"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
 </RelativeLayout>
 </ScrollView>

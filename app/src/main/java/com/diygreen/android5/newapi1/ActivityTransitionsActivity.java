@@ -1,4 +1,4 @@
-package com.diygreen.android5;
+package com.diygreen.android5.newapi1;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.transition.Slide;
 import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
+
+import com.diygreen.android5.R;
 
 public class ActivityTransitionsActivity extends AppCompatActivity {
 

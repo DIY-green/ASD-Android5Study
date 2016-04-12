@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.diygreen.android5">
 
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
     <application
+        android:name=".DIYApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,11 +27,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ElevationTranslationZActivity" />
-        <activity android:name=".TintActivity" />
-        <activity android:name=".SetClipToOutlineActivity" />
-        <activity android:name=".ActivityTransitionsActivity" />
-        <activity android:name=".ActivityTransitionsSecondActivity" />
+        <activity android:name=".newapi1.ElevationTranslationZActivity" />
+        <activity android:name=".newapi1.TintActivity" />
+        <activity android:name=".newapi1.SetClipToOutlineActivity" />
+        <activity android:name=".newapi1.ActivityTransitionsActivity" />
+        <activity android:name=".newapi1.ActivityTransitionsSecondActivity" />
+        <activity android:name=".newapi2.MediaProjectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".newapi2.JobSchedulerActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service android:name=".newapi2.CaptureScreenService" />
+        <service
+            android:name=".newapi2.JobSchedulerService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".newapi2.JobSchedulerSimpleService"
+            android:enabled="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".newapi2.HeadsUpActivity" />
+        <activity android:name=".newapi2.PdfRendererActivity" />
+        <activity android:name=".newapi2.UsageStatsActivity"></activity>
     </application>
 
 </manifest>
