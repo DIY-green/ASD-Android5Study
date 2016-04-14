@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_toolbarintroduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Theme 使用"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_changetoolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="ChangeToolBar"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_toolbardemo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToolbarDemo2"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:id="@+id/cb_test1"
+        android:layout_below="@+id/tv_toolbarintroduce"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton"
+        android:id="@+id/rb_test1"
+        android:layout_below="@+id/cb_test1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:id="@+id/switch_test1"
+        android:layout_below="@+id/rb_test1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox2"
+        android:id="@+id/cb_test2"
+        android:layout_alignBottom="@+id/cb_test1"
+        android:layout_toEndOf="@+id/cb_test1"
+        android:checked="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButton2"
+        android:id="@+id/rb_test2"
+        android:layout_alignBottom="@+id/rb_test1"
+        android:layout_toEndOf="@+id/rb_test1"
+        android:checked="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch2"
+        android:id="@+id/switch_test2"
+        android:layout_below="@+id/switch_test1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentStart="true"
+        android:checked="true" />
+
+    <Button
+        android:id="@+id/btn_toolbardrawerlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_toolbardemo2"
+        android:layout_centerHorizontal="true"
+        android:text="Toolbar+DrawerLayout"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/et_test1"
+        android:layout_below="@+id/btn_toolbardrawerlayout"
+        android:layout_alignParentStart="true"
+        android:text="输入了文本" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/et_test2"
+        android:layout_below="@+id/et_test1"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

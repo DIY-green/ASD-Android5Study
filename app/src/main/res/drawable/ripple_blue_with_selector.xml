@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#0000cc" >
+    <item>
+        <selector>
+            <item
+                android:drawable="@mipmap/icon_folder_i"
+                android:state_pressed="true">
+            </item>
+            <item
+                android:drawable="@mipmap/icon_folder_r"
+                android:state_pressed="false">
+            </item>
+        </selector>
+    </item>
+</ripple>

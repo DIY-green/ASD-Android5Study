@@ -8,32 +8,37 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <TextView
-        android:id="@+id/tv_android5apiintroduce"
+        android:id="@+id/tv_android5widgetintroduce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_android5introduce" />
+        android:text="@string/text_android5widgetintroduce"
+        android:textAllCaps="false"/>
+
     <Button
-        android:id="@+id/btn_android5api"
+        android:id="@+id/btn_rippledrawable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_android5apiintroduce"
-        android:text="@string/text_android5api"
+        android:layout_below="@+id/tv_android5widgetintroduce"
+        android:text="@string/text_rippledrawable"
         android:textAllCaps="false"
-        android:onClick="onClick"/>
+        android:onClick="onClick" />
+
     <Button
-        android:id="@+id/btn_android5widget"
+        android:id="@+id/btn_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_android5api"
-        android:text="@string/text_android5widget"
+        android:layout_below="@+id/btn_rippledrawable"
+        android:text="Toolbar"
         android:textAllCaps="false"
         android:onClick="onClick"/>
 
-    <ImageView
-        android:layout_width="429dp"
-        android:layout_height="81dp"
-        android:id="@+id/iv_minelogo"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/btn_android5widget"
-        android:src="@mipmap/ic_minelogo" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Theme"
+        android:id="@+id/btn_materialtheme"
+        android:layout_below="@+id/btn_toolbar"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
 </RelativeLayout>

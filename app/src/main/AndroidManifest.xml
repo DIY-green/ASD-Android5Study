@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
@@ -55,7 +54,23 @@
 
         <activity android:name=".newapi2.HeadsUpActivity" />
         <activity android:name=".newapi2.PdfRendererActivity" />
-        <activity android:name=".newapi2.UsageStatsActivity"></activity>
+        <activity android:name=".newapi2.UsageStatsActivity" />
+        <activity android:name=".Android5NewApiActivity" />
+        <activity android:name=".Android5NewWidgetActivity" />
+        <activity
+            android:name=".newwidget1.RippleDrawableActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".newwidget1.ToolbarActivity"
+            android:theme="@style/AppTheme.DIYToolbar" />
+        <activity
+            android:name=".newwidget1.Toolbar2Activity"
+            android:theme="@style/AppTheme.DIYToolbar2" />
+        <activity
+            android:name=".newwidget1.ToolbarDrawerLayoutActivity"
+            android:theme="@style/DIYAppTheme" />
+        <activity android:name=".newwidget1.MaterialThemeActivity"
+            android:theme="@style/DIYMaterialTheme"/>
     </application>
 
 </manifest>
