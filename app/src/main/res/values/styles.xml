@@ -46,6 +46,14 @@
     <style name="DIYMaterialTheme.Base" parent="android:Theme.Material.Light"/>
     <style name="DIYMaterialTheme" parent="DIYMaterialTheme.Base">
         <!-- 个性化颜色基调 -->
+        <item name="android:colorPrimary">#ff00cc</item>
+        <item name="android:colorPrimaryDark">#ff33ff</item>
+        <item name="android:colorAccent">#993300</item>
+        <item name="android:statusBarColor">#ccffff</item>
+        <item name="android:navigationBarColor">#330099</item>
+    </style>
+    <style name="DIYMaterialDialog" parent="android:Theme.Material.Light.Dialog">
+        <!-- 个性化颜色基调 -->
         <item name="android:colorPrimary">#336600</item>
         <item name="android:colorPrimaryDark">#339900</item>
         <item name="android:colorAccent">#993300</item>

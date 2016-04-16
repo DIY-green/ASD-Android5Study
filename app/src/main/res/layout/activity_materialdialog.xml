@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_datepickerdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Picker Dialog"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_timepickerdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Picker Dialog"
+        android:layout_below="@+id/btn_datepickerdialog"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialogonebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog One Button"
+        android:layout_below="@+id/btn_timepickerdialog"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialogtwobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Two Button"
+        android:layout_below="@+id/btn_alertdialogonebutton"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialogthreebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Three Button"
+        android:layout_below="@+id/btn_alertdialogtwobutton"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialoginput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Input"
+        android:layout_below="@+id/btn_alertdialogthreebutton"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialogsinglechoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Single Choice"
+        android:layout_below="@+id/btn_alertdialoginput"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialogmultichoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anert Dialog Multi Choice"
+        android:layout_below="@+id/btn_alertdialogsinglechoice"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialoglist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog List"
+        android:layout_below="@+id/btn_alertdialogmultichoice"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_alertdialogcustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Custom"
+        android:layout_below="@+id/btn_alertdialoglist"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_progressdialogcycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Dialog Cycle"
+        android:layout_below="@+id/btn_alertdialogcustom"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_progressdialoghorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Dialog Horizontal"
+        android:layout_below="@+id/btn_progressdialogcycle"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+</RelativeLayout>
+</ScrollView>

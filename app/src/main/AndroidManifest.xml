@@ -69,8 +69,12 @@
         <activity
             android:name=".newwidget1.ToolbarDrawerLayoutActivity"
             android:theme="@style/DIYAppTheme" />
-        <activity android:name=".newwidget1.MaterialThemeActivity"
-            android:theme="@style/DIYMaterialTheme"/>
+        <activity
+            android:name=".newwidget1.MaterialThemeActivity"
+            android:theme="@style/DIYMaterialTheme" />
+        <activity android:name=".newwidget2.MaterialDialogActivity" />
+        <activity android:name=".newwidget2.PaletteActivity" />
+        <activity android:name=".newwidget2.CardViewActivity"></activity>
     </application>
 
 </manifest>

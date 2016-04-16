@@ -9,6 +9,9 @@ import android.view.View;
 import com.diygreen.android5.newwidget1.MaterialThemeActivity;
 import com.diygreen.android5.newwidget1.RippleDrawableActivity;
 import com.diygreen.android5.newwidget1.ToolbarActivity;
+import com.diygreen.android5.newwidget2.CardViewActivity;
+import com.diygreen.android5.newwidget2.MaterialDialogActivity;
+import com.diygreen.android5.newwidget2.PaletteActivity;
 
 public class Android5NewWidgetActivity extends AppCompatActivity {
 
@@ -26,8 +29,17 @@ public class Android5NewWidgetActivity extends AppCompatActivity {
            case R.id.btn_toolbar:
                 overlay(ToolbarActivity.class);
                 break;
-            case R.id.btn_materialtheme:
+           case R.id.btn_materialtheme:
                 overlay(MaterialThemeActivity.class);
+                break;
+           case R.id.btn_materialdialog:
+                overlay(MaterialDialogActivity.class);
+                break;
+           case R.id.btn_palette:
+                overlay(PaletteActivity.class);
+                break;
+           case R.id.btn_cardview:
+                overlay(CardViewActivity.class);
                 break;
         }
     }
