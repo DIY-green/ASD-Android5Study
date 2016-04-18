@@ -16,10 +16,13 @@ public class RecyclerAdapter1 extends RecyclerView.Adapter<RecyclerAdapter1.View
         mDataList = dataList;
     }
 
+    // 设置 Item 点击监听
     public void setOnItemClickListener(OnRVItemClickListener listener) {
         mListener = listener;
     }
 
+    // 自定义的 ViewHolder，持有每个 Item 的所有 View 控件
+    // 必须继承自 RecyclerView.ViewHolder
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
         public TextView mTextView;
@@ -30,11 +33,13 @@ public class RecyclerAdapter1 extends RecyclerView.Adapter<RecyclerAdapter1.View
         }
     }
 
+    // 获取Item的数量
     @Override
     public int getItemCount() {
         return mDataList.size();
     }
 
+    // 将数据与 View 控件进行绑定
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         holder.mTextView.setText(mDataList.get(position));
@@ -48,6 +53,7 @@ public class RecyclerAdapter1 extends RecyclerView.Adapter<RecyclerAdapter1.View
         }
     }
 
+    // 创建新 View，被 LayoutManager 所调用
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = View.inflate(parent.getContext(),
