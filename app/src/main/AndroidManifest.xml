@@ -74,7 +74,8 @@
             android:theme="@style/DIYMaterialTheme" />
         <activity android:name=".newwidget2.MaterialDialogActivity" />
         <activity android:name=".newwidget2.PaletteActivity" />
-        <activity android:name=".newwidget2.CardViewActivity"></activity>
+        <activity android:name=".newwidget2.CardViewActivity" />
+        <activity android:name=".newwidget3.RecyclerViewActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.android5.newwidget3.RecyclerViewActivity">
+    <RadioGroup
+        android:id="@+id/rg_layouttype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_type1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Type1"/>
+        <RadioButton
+            android:id="@+id/rb_type2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type2"/>
+        <RadioButton
+            android:id="@+id/rb_type3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type3"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_below="@+id/rg_layouttype"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_toRightOf="@+id/btn_add"
+        android:layout_below="@+id/rg_layouttype"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_add"/>
+
+
+    <Switch
+        android:id="@+id/switch_layouttype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Vertical"
+        android:textOff="Horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="布局方向"
+        android:id="@+id/tv_layouttypetip"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/switch_layouttype" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_decoration"
+        android:layout_above="@+id/switch_layouttype"
+        android:layout_alignParentEnd="true"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="分隔线"
+        android:id="@+id/tv_decorationtip"
+        android:layout_above="@+id/switch_layouttype"
+        android:layout_alignEnd="@+id/tv_layouttypetip" />
+</RelativeLayout>

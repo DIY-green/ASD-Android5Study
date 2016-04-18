@@ -70,4 +70,14 @@
         android:textAllCaps="false"
         android:onClick="onClick"  />
 
+    <Button
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:layout_below="@+id/btn_palette"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick"  />
+
 </RelativeLayout>

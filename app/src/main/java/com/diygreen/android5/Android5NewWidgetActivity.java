@@ -12,6 +12,7 @@ import com.diygreen.android5.newwidget1.ToolbarActivity;
 import com.diygreen.android5.newwidget2.CardViewActivity;
 import com.diygreen.android5.newwidget2.MaterialDialogActivity;
 import com.diygreen.android5.newwidget2.PaletteActivity;
+import com.diygreen.android5.newwidget3.RecyclerViewActivity;
 
 public class Android5NewWidgetActivity extends AppCompatActivity {
 
@@ -40,6 +41,9 @@ public class Android5NewWidgetActivity extends AppCompatActivity {
                 break;
            case R.id.btn_cardview:
                 overlay(CardViewActivity.class);
+                break;
+           case R.id.btn_recyclerview:
+                overlay(RecyclerViewActivity.class);
                 break;
         }
     }
